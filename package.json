@@ -8,7 +8,7 @@
   },
   "author": "Bram Driesen",
   "license": "MIT",
-  "homepage": "https://gitlab.com/tobania/digital/nodejs/lighthouse-lambda",
+  "homepage": "https://github.com/BramDriesen/lighthouse-lambda",
   "dependencies": {
     "chrome-aws-lambda": "^10.0.0",
     "lighthouse": "^8.0.0",

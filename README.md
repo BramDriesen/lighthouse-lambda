@@ -12,7 +12,7 @@ Example of a full request body
 
 ```json
 {
-    "url": "https://tobania.be",
+    "url": "https://google.com",
     "preset": "desktop",
     "onlyCategories": ["seo"]
 }
