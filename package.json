@@ -16,5 +16,8 @@
   },
   "devDependencies": {
     "puppeteer-core": "^10.2.0"
+  },
+  "release": {
+    "branches": ["master"]
   }
 }
