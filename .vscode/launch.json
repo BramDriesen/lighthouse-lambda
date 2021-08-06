@@ -1,0 +1,28 @@
+{
+	"configurations": [{
+		"type": "aws-sam",
+		"request": "direct-invoke",
+		"name": "lighthouse-lambda",
+		"invokeTarget": {
+			"target": "api",
+            "templatePath": "template.yaml",
+			"logicalId": "LightouseLambda"
+		},
+		"api": {
+            "path": "/",
+            "httpMethod": "post",
+			"payload": {
+				"json": {
+					"url": "https://google.com",
+					"preset": "desktop",
+					"onlyCategories": [
+						"seo"
+					]
+				}
+			},
+            "headers": {
+                "Content-Type": "application/json"
+            }
+		}
+	}]
+}

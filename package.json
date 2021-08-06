@@ -1,0 +1,20 @@
+{
+  "name": "lighthouse-lambda",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Lighthouse AWS Lambda function",
+  "engines": {
+    "node": ">= v10.19.0"
+  },
+  "author": "Bram Driesen",
+  "license": "MIT",
+  "homepage": "https://gitlab.com/tobania/digital/nodejs/lighthouse-lambda",
+  "dependencies": {
+    "chrome-aws-lambda": "^10.0.0",
+    "lighthouse": "^8.0.0",
+    "lighthouse-logger": "^1.2.0"
+  },
+  "devDependencies": {
+    "puppeteer-core": "^10.2.0"
+  }
+}
