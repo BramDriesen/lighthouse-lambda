@@ -8,16 +8,11 @@
   },
   "author": "Bram Driesen",
   "license": "MIT",
-  "homepage": "https://github.com/BramDriesen/lighthouse-lambda",
+  "homepage": "https://gitlab.com/tobania/digital/nodejs/lighthouse-lambda",
   "dependencies": {
     "chrome-aws-lambda": "^10.0.0",
     "lighthouse": "^8.0.0",
-    "lighthouse-logger": "^1.2.0"
-  },
-  "devDependencies": {
+    "lighthouse-logger": "^1.2.0",
     "puppeteer-core": "^10.2.0"
-  },
-  "release": {
-    "branches": ["master"]
   }
 }
