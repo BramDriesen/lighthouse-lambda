@@ -11,7 +11,7 @@
   "homepage": "https://github.com/BramDriesen/lighthouse-lambda",
   "dependencies": {
     "chrome-aws-lambda": "^10.0.0",
-    "lighthouse": "^8.0.0",
+    "lighthouse": "^9.0.0",
     "lighthouse-logger": "^1.2.0",
     "puppeteer-core": "^10.2.0"
   }
